@@ -16,9 +16,13 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 
 public class ComputeData {
-    public static int lenX = 16;
-    public static int lenY = 16;
+    public static int lenX = 4;
+    public static int lenY = 4;
     public static int maxIter = 100;
+    public static float loss = 50;
+    public static int flag = 0;
+
+
     public static class HeatMapper extends Mapper<Object, Text, Text, FloatWritable> {
 
         public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
@@ -65,6 +69,7 @@ public class ComputeData {
         }
     }
 
+
     public static class HeatReducer extends Reducer<Text, FloatWritable, Text, NullWritable> {
 
         public void reduce(Text key, Iterable<FloatWritable> values, Context context) throws IOException, InterruptedException {
@@ -86,10 +91,10 @@ public class ComputeData {
         Configuration conf = new Configuration();
 //        conf.set("dfs.client.use.datanode.hostname", "true");
 
-        String input = "/Users/allmight/work/ideaworkspace/Hercules/16/input";
+        String input = "/Users/allmight/work/ideaworkspace/Hercules/4/input";
 //        String input = "/Users/allmight/work/ideaworkspace/Hercules/16/output/100";
-        String output = "/Users/allmight/work/ideaworkspace/Hercules/16/output/";
-        for (int i = 101;i<=maxIter;i++) {
+        String output = "/Users/allmight/work/ideaworkspace/Hercules/4/output/";
+        for (int i = 1;i<=maxIter;i++) {
             Job job = Job.getInstance(conf, "heat");
             job.setJarByClass(ComputeData.class);
             job.setMapperClass(HeatMapper.class);

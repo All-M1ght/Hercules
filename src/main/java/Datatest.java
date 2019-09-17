@@ -25,9 +25,10 @@ public class Datatest {
     }
 
     public static void main(String[] args) {
-        List<String> neighborhood = getNeighborhood(0, 3,4,4);
-        for (String s :neighborhood){
-            System.out.println(s);
-        }
+        String a = "35.86";
+        if (a.contains("p"))
+            a = a.substring(1);
+        float f = Float.valueOf(a);
+        System.out.println(f);
     }
 }

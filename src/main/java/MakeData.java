@@ -3,8 +3,8 @@ import java.util.List;
 
 public class MakeData {
     public static void main(String[] args) {
-        int lenX = 16;
-        int lenY = 16;
+        int lenX = 4;
+        int lenY = 4;
         int Ttop = 100;
         int Tbottom = 0;
         int Tleft = 0;
@@ -49,9 +49,9 @@ public class MakeData {
         }
 
 //        System.out.println();
-//        showData(data,lenX,lenY);
+        showData(data,lenX,lenY);
 
-        File fout = new File("/Users/allmight/work/ideaworkspace/Hercules/16/input/16.txt");
+        File fout = new File("/Users/allmight/work/ideaworkspace/Hercules/4/input/4.txt");
         FileOutputStream fos = null;
         try {
             fos = new FileOutputStream(fout);

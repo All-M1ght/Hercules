@@ -2,10 +2,11 @@ import java.io.*;
 
 public class GetData {
     public static void main(String[] args) {
-        get("/Users/allmight/work/ideaworkspace/Hercules/output/1/part-r-00000");
+        get("/Users/allmight/work/ideaworkspace/Hercules/4/output/3/part-r-00000");
         System.out.println();
-        get("/Users/allmight/work/ideaworkspace/Hercules/output/2/part-r-00000");
-
+        get("/Users/allmight/work/ideaworkspace/Hercules/4/output/4/part-r-00000");
+        System.out.println();
+        get("/Users/allmight/work/ideaworkspace/Hercules/4/output/5/part-r-00000");
     }
     public static void get(String path){
         float[][] data = new float[4][4];
