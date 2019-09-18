@@ -6,7 +6,438 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd04fcf2-8485-4ee1-845e-79bca828a751" name="Default Changelist" comment="" />
+    <list default="true" id="bd04fcf2-8485-4ee1-845e-79bca828a751" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/1/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/1/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/1/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/1/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/2/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/2/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/2/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/2/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/3/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/3/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/3/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/3/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/4/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/4/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/4/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/4/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/5/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/5/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/5/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/output/5/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/input/8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output1/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output1/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output1/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output1/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output10/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output10/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output10/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output10/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output100/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output100/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output100/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output100/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output11/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output11/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output11/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output11/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output12/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output12/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output12/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output12/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output13/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output13/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output13/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output13/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output14/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output14/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output14/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output14/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output15/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output15/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output15/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output15/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output16/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output16/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output16/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output16/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output17/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output17/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output17/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output17/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output18/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output18/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output18/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output18/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output19/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output19/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output19/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output19/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output2/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output2/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output2/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output2/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output20/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output20/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output20/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output20/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output21/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output21/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output21/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output21/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output22/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output22/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output22/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output22/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output23/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output23/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output23/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output23/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output24/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output24/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output24/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output24/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output25/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output25/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output25/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output25/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output26/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output26/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output26/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output26/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output27/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output27/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output27/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output27/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output28/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output28/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output28/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output28/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output29/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output29/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output29/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output29/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output3/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output3/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output3/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output3/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output30/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output30/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output30/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output30/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output31/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output31/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output31/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output31/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output32/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output32/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output32/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output32/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output33/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output33/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output33/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output33/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output34/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output34/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output34/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output34/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output35/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output35/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output35/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output35/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output36/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output36/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output36/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output36/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output37/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output37/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output37/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output37/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output38/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output38/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output38/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output38/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output39/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output39/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output39/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output39/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output4/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output4/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output4/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output4/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output40/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output40/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output40/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output40/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output41/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output41/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output41/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output41/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output42/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output42/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output42/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output42/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output43/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output43/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output43/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output43/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output44/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output44/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output44/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output44/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output45/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output45/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output45/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output45/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output46/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output46/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output46/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output46/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output47/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output47/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output47/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output47/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output48/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output48/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output48/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output48/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output49/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output49/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output49/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output49/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output5/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output5/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output5/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output5/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output50/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output50/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output50/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output50/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output51/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output51/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output51/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output51/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output52/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output52/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output52/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output52/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output53/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output53/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output53/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output53/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output54/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output54/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output54/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output54/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output55/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output55/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output55/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output55/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output56/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output56/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output56/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output56/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output57/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output57/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output57/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output57/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output58/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output58/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output58/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output58/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output59/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output59/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output59/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output59/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output6/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output6/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output6/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output6/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output60/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output60/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output60/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output60/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output61/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output61/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output61/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output61/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output62/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output62/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output62/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output62/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output63/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output63/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output63/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output63/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output64/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output64/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output64/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output64/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output65/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output65/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output65/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output65/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output66/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output66/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output66/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output66/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output67/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output67/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output67/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output67/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output68/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output68/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output68/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output68/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output69/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output69/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output69/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output69/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output7/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output7/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output7/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output7/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output70/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output70/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output70/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output70/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output71/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output71/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output71/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output71/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output72/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output72/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output72/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output72/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output73/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output73/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output73/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output73/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output74/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output74/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output74/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output74/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output75/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output75/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output75/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output75/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output76/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output76/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output76/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output76/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output77/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output77/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output77/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output77/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output78/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output78/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output78/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output78/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output79/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output79/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output79/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output79/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output8/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output8/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output8/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output8/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output80/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output80/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output80/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output80/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output81/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output81/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output81/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output81/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output82/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output82/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output82/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output82/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output83/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output83/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output83/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output83/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output84/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output84/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output84/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output84/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output85/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output85/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output85/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output85/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output86/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output86/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output86/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output86/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output87/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output87/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output87/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output87/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output88/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output88/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output88/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output88/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output89/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output89/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output89/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output89/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output9/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output9/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output9/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output9/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output90/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output90/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output90/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output90/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output91/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output91/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output91/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output91/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output92/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output92/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output92/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output92/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output93/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output93/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output93/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output93/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output94/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output94/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output94/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output94/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output95/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output95/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output95/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output95/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output96/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output96/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output96/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output96/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output97/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output97/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output97/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output97/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output98/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output98/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output98/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output98/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output99/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output99/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output99/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/output99/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ComputeStopByE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ComputeStopByE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MakeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MakeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ComputeStopByE$EMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ComputeStopByE$EMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ComputeStopByE$EReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ComputeStopByE$EReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ComputeStopByE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ComputeStopByE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MakeData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MakeData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +451,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ComputeStopByE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="15">
+              <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,7 +464,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/GetData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="83" lean-forward="true" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
+              <caret line="8" column="83" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -38,8 +472,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MakeData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="91" column="50" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
+            <state relative-caret-position="150">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,20 +497,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ComputeData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="79" column="46" lean-forward="true" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
+              <caret line="79" column="46" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2143#2151#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16/input/16.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -113,12 +538,15 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/input/my.txt" />
         <option value="$PROJECT_DIR$/src/main/java/WordCount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MakeData.java" />
         <option value="$PROJECT_DIR$/4/input/4.txt" />
         <option value="$PROJECT_DIR$/src/main/java/ComputeData.java" />
         <option value="$PROJECT_DIR$/src/main/java/Datatest.java" />
         <option value="$PROJECT_DIR$/4/flag.txt" />
         <option value="$PROJECT_DIR$/src/main/java/GetData.java" />
+        <option value="$PROJECT_DIR$/4/output/1/part-r-00000" />
+        <option value="$PROJECT_DIR$/8/output125/part-r-00000" />
+        <option value="$PROJECT_DIR$/1080/input/1080.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/MakeData.java" />
         <option value="$PROJECT_DIR$/src/main/java/ComputeStopByE.java" />
       </list>
     </option>
@@ -150,24 +578,26 @@
             <path>
               <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hercules" type="462c0819:PsiDirectoryNode" />
-              <item name="4" type="462c0819:PsiDirectoryNode" />
+              <item name="1080" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hercules" type="462c0819:PsiDirectoryNode" />
-              <item name="4" type="462c0819:PsiDirectoryNode" />
+              <item name="1080" type="462c0819:PsiDirectoryNode" />
               <item name="input" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hercules" type="462c0819:PsiDirectoryNode" />
-              <item name="16" type="462c0819:PsiDirectoryNode" />
+              <item name="1080" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hercules" type="462c0819:PsiDirectoryNode" />
-              <item name="16" type="462c0819:PsiDirectoryNode" />
+              <item name="1080" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="170" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
@@ -187,24 +617,6 @@
               <item name="artifacts" type="462c0819:PsiDirectoryNode" />
               <item name="Hercules_jar" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hercules" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hercules" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hercules" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -215,7 +627,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568723678003" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568804046094" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -241,7 +653,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetData">
+  <component name="RunManager" selected="Application.ComputeStopByE">
     <configuration name="ComputeStopByE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ComputeStopByE" />
       <module name="Hercules" />
@@ -303,10 +715,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetData" />
         <item itemvalue="Application.ComputeStopByE" />
-        <item itemvalue="Application.Datatest" />
         <item itemvalue="Application.MakeData" />
+        <item itemvalue="Application.GetData" />
+        <item itemvalue="Application.Datatest" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -321,33 +733,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568267091476</updated>
-      <workItem from="1568267097700" duration="48258000" />
+      <workItem from="1568267097700" duration="61593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48258000" />
+    <option name="totallyTimeSpent" value="61593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.59638554" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3626506" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4120482" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4566265" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -480,20 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4/output/5/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4/output/4/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WordCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -531,32 +930,12 @@
     <entry file="file://$PROJECT_DIR$/4/output/44/part-r-00000">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MakeData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="91" column="50" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4/input/4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/16/input/16.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4/flag.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/16/output/1/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
@@ -568,7 +947,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ComputeData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="79" column="46" lean-forward="true" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
+          <caret line="79" column="46" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2143#2151#0" expanded="true" />
@@ -586,17 +965,157 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/16/output/1001/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1080/output/108/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/input/4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.7/hadoop-mapreduce-client-core-2.7.7.jar!/org/apache/hadoop/mapreduce/TaskAttemptContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.7/hadoop-mapreduce-client-core-2.7.7.jar!/org/apache/hadoop/mapreduce/TaskInputOutputContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="87" selection-start-line="13" selection-start-column="87" selection-end-line="13" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.7/hadoop-mapreduce-client-core-2.7.7.jar!/org/apache/hadoop/mapreduce/task/JobContextImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.7/hadoop-common-2.7.7.jar!/org/apache/hadoop/conf/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="238" column="11" selection-start-line="238" selection-start-column="11" selection-end-line="238" selection-end-column="11" />
+          <folding>
+            <element signature="e#10395#10396#0" expanded="true" />
+            <element signature="e#10421#10422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.7/hadoop-common-2.7.7.jar!/org/apache/hadoop/fs/Path.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.7/hadoop-mapreduce-client-core-2.7.7.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="325" column="15" lean-forward="true" selection-start-line="325" selection-start-column="15" selection-end-line="325" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.7/hadoop-common-2.7.7.jar!/org/apache/hadoop/fs/FileSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="604" column="32" selection-start-line="604" selection-start-column="32" selection-end-line="604" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GetData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="83" lean-forward="true" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
+          <caret line="8" column="83" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/output/2/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/output/1/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/output/4/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/input/100*30.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/output125/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="2999" column="10" selection-start-line="2999" selection-start-column="10" selection-end-line="2999" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/output/5/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/flag.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1080/output/170/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1080/input/1080.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MakeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ComputeStopByE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="15">
+          <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,7 +3,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.LocatedFileStatus;
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.fs.RemoteIterator;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
@@ -11,13 +13,15 @@ import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.fs.FileSystem;
 
 
 
 public class ComputeStopByE {
-    public static int lenX = 4;
-    public static int lenY = 4;
+    public static int lenX = 1080;
+    public static int lenY = 300;
     public static float e = 0.1f;
+    public static boolean isWritedFlag  = false;
 
     public static int maxIter = 100;
 
@@ -87,8 +91,12 @@ public class ComputeStopByE {
             if (!isBoundary(x, y, lenX, lenY))
                 sum /= 4;
             float loss = sum - post;
-            if (loss > e || loss < -e) {
-                writeFlag(x, y, loss);
+            if ((loss > e || loss < -e) && !isWritedFlag) {
+//                Configuration conf = new Configuration();
+//                FileSystem fs = FileSystem.get(conf);
+//                fs.createNewFile(new Path("/user/root/flag/"+x+"-"+y+"-"+loss));
+                writeFlag(x, y, loss);  //本地测试
+//                isWritedFlag = true;
             }
             String result = key.toString() + "," + sum;
             context.write(new Text(result), NullWritable.get());
@@ -97,11 +105,12 @@ public class ComputeStopByE {
 
     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration();
-
-
-        String input = "/Users/allmight/work/ideaworkspace/Hercules/4/input";
-//        String input = "/Users/allmight/work/ideaworkspace/Hercules/16/output/100";
-        String output = "/Users/allmight/work/ideaworkspace/Hercules/4/output/";
+        FileSystem fs = FileSystem.get(conf);
+        String input = "/Users/allmight/work/ideaworkspace/Hercules/1080/input";
+//        String input = "/user/root/input";
+//        String input = "/Users/allmight/work/ideaworkspace/Hercules/16/output/1000";
+        String output = "/Users/allmight/work/ideaworkspace/Hercules/1080/output/";
+//        String output = "/user/root/output/";
         for (int i = 1; 1 == 1; i++) {
             Job job = Job.getInstance(conf, "heat");
             job.setJarByClass(ComputeStopByE.class);
@@ -115,12 +124,15 @@ public class ComputeStopByE {
             FileOutputFormat.setOutputPath(job, new Path(output + i));
             input = output + i;
             job.waitForCompletion(true);
-            if (!readFlag("/Users/allmight/work/ideaworkspace/Hercules/4/flag.txt"))
+            if (!readFlag("/Users/allmight/work/ideaworkspace/Hercules/4/flag.txt")) //本地
                 break;
-            rebuildFlag("/Users/allmight/work/ideaworkspace/Hercules/4/flag.txt");
+//            if (!checkHdfsFlag(fs,"/user/root/flag"))
+//                break;
 
-
+            rebuildFlag("/Users/allmight/work/ideaworkspace/Hercules/4/flag.txt");//本地
+//            clearHdfsFlag(fs,"/user/root/flag");
         }
+        fs.close();
     }
 
     public static boolean isBoundary(int x, int y, int lenX, int lenY) {
@@ -192,5 +204,18 @@ public class ComputeStopByE {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static boolean checkHdfsFlag(FileSystem fs,String path) throws Exception{
+        RemoteIterator<LocatedFileStatus> locatedFileStatusRemoteIterator = fs.listFiles(new Path(path), false);
+        if (locatedFileStatusRemoteIterator.hasNext()){
+            return true;
+        }
+        return false;
+    }
+
+    public static void clearHdfsFlag(FileSystem fs,String path) throws Exception{
+        fs.delete(new Path(path), true);
+        fs.mkdirs(new Path(path));
     }
 }
